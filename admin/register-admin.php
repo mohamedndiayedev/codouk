@@ -76,7 +76,7 @@ include('includes/navbar.php');
       <div class="table-responsive">
 
        <?php 
-           $conn = mysqli_connect("localhost","root","","codou_all_db");
+           $conn = mysqli_connect("nnmeqdrilkem9ked.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","zpya0in3doc87txd","w1h5pe97xwnoggrr","s6tm8jesl338iq5q");
            $query = "SELECT * FROM register_admin";
            $query_run = mysqli_query ($conn, $query);
        ?>
