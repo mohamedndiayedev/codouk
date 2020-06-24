@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteRule ^index$ index.php [L]
+RewriteRule ^register$ register.php [L]
+RewriteRule ^register-admin$ register-admin.php [L]
+
+
+#Ceci est pour la page erreur 404
+
+  ErrorDocument 404 http://localhost/health-coach/404.php
+
