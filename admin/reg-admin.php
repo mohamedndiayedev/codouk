@@ -1,7 +1,7 @@
 <?php
 /*Code helping to connect to the databse and verify credentials */
 include('security-admin.php');
-$conn = mysqli_connect("localhost","root","","codou_all_db");
+$conn = mysqli_connect("nnmeqdrilkem9ked.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","zpya0in3doc87txd","w1h5pe97xwnoggrr","s6tm8jesl338iq5q");
 
 if(isset($_POST['register_btn'])) 
 {
